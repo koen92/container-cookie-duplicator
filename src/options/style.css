@@ -1,0 +1,19 @@
+h3 {
+  color: red;
+  line-height: 50px; 
+}
+
+.invisible {
+  visiblity: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(35, 34, 43);
+    color: rgb(251,251,254);
+  } 
+  .form-control {
+    background-color: transparent;
+    color: rgb(251,251,254);
+  }
+}

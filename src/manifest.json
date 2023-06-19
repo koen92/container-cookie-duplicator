@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Container cookie duplicator",
+	"description": "Automatically duplicate specific cookie domains to all your multi-account containers",
+	"version": "0.0.1",
+  "permissions": ["<all_urls>", "cookies", "storage", "contextualIdentities"],
+	"icons": {
+		"64": "icons/icon.png"
+	},
+	"background": {
+		"scripts": [
+			"background_script.js"
+		]
+	},
+	"options_ui": {
+		"page": "options/index.html"
+	}
+}
